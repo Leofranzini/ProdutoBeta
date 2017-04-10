@@ -1,0 +1,18 @@
+<div class="menu">
+	<div class="logo">ProdutoWeb</div>
+	<button type="button" ng-click="listagem()">Listagem</button>	
+</div>
+<h2>Cadastro</h2>
+
+<div class = "form">
+	<label>Código:</label>
+	<input type="text" ng-model="produto.codigo">
+	 
+	<label>Descrição:</label>
+	<input type="text" ng-model="produto.descricao">
+
+	<label>Preço:</label>
+	<input type="text" ng-model="produto.preco">
+
+	<button class="salvar" type="button" ng-click="salvar(produto)">Salvar</button>	
+</div>
